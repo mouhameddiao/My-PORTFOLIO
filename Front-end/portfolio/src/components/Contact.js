@@ -1,5 +1,6 @@
 import React from 'react';
 import { FaMapMarkerAlt, FaEnvelope, FaPhone, FaLanguage } from 'react-icons/fa';
+import ParticlesBackground from '../components/ParticlesBackground';
 
 const Contact = () => {
   return (
@@ -64,6 +65,7 @@ const Contact = () => {
         </div>
       </div>
     </div>
+    
   );
 };
 

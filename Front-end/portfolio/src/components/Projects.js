@@ -1,5 +1,6 @@
 import React from 'react';
 import { FaExternalLinkAlt } from 'react-icons/fa'; 
+import ParticlesBackground from '../components/ParticlesBackground';
 
 const projects = [
   { 

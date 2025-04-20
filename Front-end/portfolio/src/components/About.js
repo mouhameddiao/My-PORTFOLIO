@@ -2,12 +2,17 @@ import React from 'react';
 import { FaHtml5, FaCss3Alt, FaJs, FaReact, FaNodeJs } from 'react-icons/fa';
 import { SiNextdotjs } from 'react-icons/si';
 import momodeveloppeur from '../assets/images/momo developpeur.jpg';  
+import ParticlesBackground from './ParticlesBackground';
 
 
 const About = () => {
   return (
+    
+   
     <div className="py-20 px-8 bg-gray-100">
+      
       <div className="container mx-auto">
+      
         {/* Section Titre */}
         <h2 className="text-5xl font-extrabold text-center text-gray-800 mb-12">
           À propos de moi
@@ -69,7 +74,9 @@ const About = () => {
           </p>
         </div>
       </div>
+      
     </div>
+    
   );
 };
 
