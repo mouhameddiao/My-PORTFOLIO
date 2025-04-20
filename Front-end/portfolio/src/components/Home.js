@@ -11,7 +11,7 @@ function Home() {
   };
 
   return (
-    <section className="relative bg-gray-100 min-h-screen flex items-center justify-center">
+    <section className="relative bg-gray-100 min-h-screen p-4 flex items-center justify-center">
       {/* Particules */}
       <Particles
         id="tsparticles"
@@ -69,8 +69,8 @@ function Home() {
         <img
           src={momodeveloppeur}
           alt="momodeveloppeur"
-          className="w-60 h-60 rounded-full border-4 border-green mx-auto shadow-lg hover:scale-105 transition-transform duration-300"
-        />
+          className="w-60 h-60 rounded-full border-4 border-green mx-auto shadow-lg hover:scale-105 transition-transform duration-300 mt-20"
+          />
 
         {/* Titre principal avec animation */}
         <h1 className="text-3xl font-extrabold mt-8 text-gray-800 animate-bounce">
@@ -88,7 +88,7 @@ function Home() {
 
         {/* Bouton Call to Action */}
         <Link
-          to="/projects"
+          to="http://localhost:3000/projects"
           className="bg-primary text-white py-3 px-6 rounded-full text-lg font-semibold hover:bg-secondary transition-colors duration-300"
         >
           View My Work

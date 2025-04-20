@@ -3,13 +3,30 @@ import { FaExternalLinkAlt } from 'react-icons/fa';
 
 const projects = [
   { 
-    title: 'E-commerce Website', 
+    title: 'Site Fatimah Food', 
     tech: ['React', 'Node.js', 'MongoDB'], 
-    description: 'Une plateforme de e-commerce moderne avec intégration de paiement et gestion de panier en temps réel.',
-    link: 'https://example-ecommerce.com' 
+    description: 'Une plateforme de Restaurant moderne avec intégration de paiement et gestion de panier en temps réel.',
+    link: 'https://khaadeejafood.vercel.app/' 
   },
 
- 
+  { 
+    title: 'Site khaadeejaa food', 
+    tech: ['React', 'Node.js', 'MongoDB'], 
+    description: 'Une plateforme de e-commerce moderne avec intégration de paiement et gestion de panier en temps réel.',
+    link: 'https://khaadeejafood.vercel.app/' 
+  },
+  { 
+    title: 'Site KURINJI vetement', 
+    tech: ['React', 'Node.js', 'MongoDB'], 
+    description: 'Une plateforme de e-commerce moderne avec intégration de paiement et gestion de panier en temps réel.',
+    link: 'https://vercel.com/mohamet-diaos-projects/nabufood' 
+  },
+  { 
+    title: 'Site Fatimah Food', 
+    tech: ['React', 'Node.js', 'MongoDB'], 
+    description: 'Une plateforme de e-commerce moderne avec intégration de paiement et gestion de panier en temps réel.',
+    link: 'https://vercel.com/mohamet-diaos-projects/nabufood' 
+  },
  
   // Ajoutez  
 ];

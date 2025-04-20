@@ -9,7 +9,7 @@ const Contact = () => {
         <div className="max-w-lg mx-auto bg-white p-8 shadow-lg rounded-lg text-gray-800">
           {/* Localisation */}
           <div className="flex items-center mb-6">
-            <FaMapMarkerAlt className="text-purple-600 text-3xl mr-4" />
+            <FaMapMarkerAlt className="text-gray-900 text-3xl mr-4" />
             <div>
               <h3 className="text-2xl font-semibold">Localisation</h3>
               <p>Dakar, Sénégal</p>
@@ -18,13 +18,13 @@ const Contact = () => {
 
           {/* Adresse e-mail */}
           <div className="flex items-center mb-6">
-            <FaEnvelope className="text-purple-600 text-3xl mr-4" />
+            <FaEnvelope className="text-gray-900 text-3xl mr-4" />
             <div>
               <h3 className="text-2xl font-semibold">Adresse e-mail</h3>
               <p>
                 <a
                   href="mailto:momoibnibrvhimm2002@gmail.com"
-                  className="text-purple-600 hover:underline"
+                  className="text-gray-900 hover:underline"
                 >
                   momoibnibrvhimm2002@gmail.com
                 </a>
@@ -34,13 +34,13 @@ const Contact = () => {
 
           {/* Numéro de téléphone */}
           <div className="flex items-center mb-6">
-            <FaPhone className="text-purple-600 text-3xl mr-4" />
+            <FaPhone className="text-gray-900 text-3xl mr-4" />
             <div>
               <h3 className="text-2xl font-semibold">Téléphone</h3>
               <p>
                 <a
                   href="tel:+221775848783"
-                  className="text-purple-600 hover:underline"
+                  className="text-gray-900 hover:underline"
                 >
                   +221 77 584 87 83
                 </a>
@@ -50,7 +50,7 @@ const Contact = () => {
 
           {/* Langues parlées */}
           <div className="flex items-start mb-6">
-            <FaLanguage className="text-purple-600 text-3xl mr-4 mt-1" />
+            <FaLanguage className="text-gray-900 text-3xl mr-4 mt-1" />
             <div>
               <h3 className="text-2xl font-semibold">Langues parlées</h3>
               <ul className="list-disc list-inside">
