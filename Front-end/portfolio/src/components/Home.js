@@ -1,39 +1,38 @@
+// ✅ Home.jsx - Responsive
 import React from 'react';
 import { Link } from 'react-router-dom';
-
 import momodeveloppeur from '../assets/images/momo developpeur.jpg';
 import ParticlesBackground from './ParticlesBackground';
 
 function Home() {
   return (
-    <section className="relative bg-gray-100 min-h-screen p-4 flex items-center justify-center">
-      {/* Particules */}
+    <section className="relative bg-gray-100 min-h-screen py-16 px-4 sm:px-8 md:px-12">
       <ParticlesBackground />
 
-      {/* Contenu principal */}
-      <div className="relative z-10 text-center">
+      <div className="relative z-10 flex flex-col md:flex-row items-center justify-between max-w-6xl mx-auto text-center md:text-left gap-8">
         <img
           src={momodeveloppeur}
           alt="momodeveloppeur"
-          className="w-60 h-60 rounded-full border-4 border-green mx-auto shadow-lg hover:scale-105 transition-transform duration-300 mt-20"
+          className="w-32 h-32 sm:w-40 sm:h-40 md:w-56 md:h-56 rounded-full border-4 border-green shadow-lg hover:scale-105 transition-transform duration-300"
         />
 
-        <h1 className="text-3xl font-extrabold mt-8 text-gray-800 animate-bounce">
-          I'm Mohamet Diao
-        </h1>
-        <h2 className="text-4xl font-extrabold mt-4 text-gray-800 animate-bounce">
-          Welcome to My Portfolio
-        </h2>
-        <p className="text-xl text-gray-600 mt-4 mb-8">
-          I am a Fullstack Developer specialized in React, Node.js, and innovative web solutions.
-        </p>
-
-        <Link
-          to="http://localhost:3000/projects"
-          className="bg-primary text-white py-3 px-6 rounded-full text-lg font-semibold hover:bg-secondary transition-colors duration-300"
-        >
-          View My Work
-        </Link>
+        <div className="flex-1">
+          <h1 className="text-3xl sm:text-4xl md:text-5xl font-extrabold text-gray-800 mb-4 animate-bounce">
+            I'm Mohamet Diao
+          </h1>
+          <h2 className="text-2xl sm:text-3xl md:text-4xl font-extrabold text-gray-800 mb-4 animate-bounce">
+            Welcome to My Portfolio
+          </h2>
+          <p className="text-base sm:text-lg md:text-xl text-gray-600 mb-6">
+            I am a Fullstack Developer specialized in React, Node.js, and innovative web solutions.
+          </p>
+          <Link
+            to="/projects"
+            className="inline-block bg-primary text-white py-3 px-6 rounded-full text-base sm:text-lg font-semibold hover:bg-secondary transition-colors duration-300"
+          >
+            View My Work
+          </Link>
+        </div>
       </div>
     </section>
   );
